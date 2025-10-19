@@ -1,0 +1,80 @@
+{
+  "dataset_info": {
+    "total_products": 305,
+    "total_columns": 22,
+    "file_size_mb": 1.5,
+    "timestamp": "2025-10-18T19:59:17.974170"
+  },
+  "checks": {
+    "columns": {
+      "uniq_id": true,
+      "title": true,
+      "description": true,
+      "brand": true,
+      "price_numeric": true,
+      "categories": true,
+      "images": true,
+      "text_embedding": true,
+      "preprocessed_text": true
+    },
+    "embeddings": {
+      "status": "valid",
+      "dimension": 384,
+      "total_embeddings": 305,
+      "missing": 0,
+      "zero_embeddings": 0,
+      "norm_stats": {
+        "min": 0.9999999144831986,
+        "max": 1.0000000852469557,
+        "mean": 0.9999999999000443,
+        "std": 3.329181656930272e-08
+      }
+    },
+    "text": {
+      "status": "valid",
+      "length_stats": {
+        "min": 54,
+        "max": 1897,
+        "mean": 470.1967213114754,
+        "median": 236.0
+      },
+      "short_texts": 0,
+      "empty_texts": 0
+    },
+    "metadata": {
+      "uniq_id": {
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      "title": {
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      "brand": {
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      "price_numeric": {
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      "categories": {
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      "images": {
+        "missing": 0,
+        "missing_pct": 0.0
+      }
+    },
+    "images": {
+      "status": "valid",
+      "total_products": 305,
+      "with_images": 305,
+      "coverage_pct": 100.0
+    }
+  },
+  "recommendations": [
+    "\u2705 Data quality is excellent! Ready for production."
+  ]
+}
