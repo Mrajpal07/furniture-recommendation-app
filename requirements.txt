@@ -13,7 +13,7 @@ python-multipart==0.0.9
 groq==0.11.0
 sentence-transformers==5.1.1
 transformers==4.57.1
-torch==2.9.0
+torch==2.5.0
 tokenizers==0.22.1
 safetensors==0.6.2
 
@@ -24,12 +24,12 @@ pinecone-plugin-interface==0.0.7
 
 # Data Processing
 pandas==2.2.0
-numpy==2.3.4
+numpy==1.26.4
 scikit-learn==1.7.2
 scipy==1.16.2
 pillow==12.0.0
 
-# LangChain (if needed)
+# LangChain
 langchain==1.0.0
 langchain-core==1.0.0
 langgraph==1.0.0
