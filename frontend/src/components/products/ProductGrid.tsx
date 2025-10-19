@@ -1,6 +1,6 @@
 import { ProductCard } from './ProductCard'
 import type { Product } from '../../lib/types'
-import { Loader2 } from 'lucide-react'
+
 
 interface ProductGridProps {
     products: Product[]

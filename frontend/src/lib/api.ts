@@ -1,5 +1,5 @@
 import axios from 'axios'
-import type { Product, ChatRequest, ChatResponse, PaginatedResponse, SearchFilters } from './types'
+import type { Product, ChatRequest, ChatResponse, PaginatedResponse,  } from './types'
 
 // API Base URL - change this when deploying
 const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api'
